@@ -1,0 +1,8 @@
+package procedure;
+
+import lombok.Data;
+
+@Data //Constructor, Gettre, Setter, HashCode(), equals(), toString()자동 생성
+public class User {
+
+}

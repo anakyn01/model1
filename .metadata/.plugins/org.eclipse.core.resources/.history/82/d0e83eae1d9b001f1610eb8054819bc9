@@ -1,0 +1,47 @@
+package procedure;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class UserDAO {
+	
+	private Connection conn;//자바와 데이터 베이스 연결
+	private PreparedStatement pstmt;//퀴리문 대기 및 설정
+	private ResultSet rs;//결과값 받아오기
+	//접근제어자를 private Connection,PreparedStatement,ResultSet를 필드로 선언
+	
+	//생성자
+	public UserDAO() {//javascript는 constructor  java class는 클래스명과 동일
+		try {
+String dbURL ="jdbc:oracle:thin:@localhost:1521/xe";
+String dbID = "PRO_USR";
+String dbPassword = "1234";
+Class.forName("oracle.jdbc.OracleDriver");//ojdbc연결 클래스를 String타입으로 불러옵니다
+conn = DriverManager.getConnection(dbURL, dbID, dbPassword);
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+
+	public int login(String userID, String userPassword) {
+		String sql = "select userPassword from usr where userID = ?";
+		try {
+			pstmt = conn.prepareStatement(sql);//쿼리문 대기
+			pstmt.setString(1,  userID);//첫번째 '?'에 매개변수로 받아온 'userID'를 대입
+			rs = pstmt.executeQuery();//쿼리를 실행한 결과를 rs에 저장
+			if(rs.next()) {
+				if(rs.getString(1).equals(userPassword)) {
+					return 1;//로그인 성공
+				}else
+					return 0;//비밀번호 틀림
+			}
+			return -1;//아이디 없음
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

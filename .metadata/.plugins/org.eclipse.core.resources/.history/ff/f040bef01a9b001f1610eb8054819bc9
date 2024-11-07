@@ -1,0 +1,24 @@
+package procedure;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
+
+public class UserDAO {
+	
+	private Connection conn;//자바와 데이터 베이스 연결
+	private PreparedStatement pstmt;//퀴리문 대기 및 설정
+	private ResultSet rs;//결과값 받아오기
+	//접근제어자를 private Connection,PreparedStatement,ResultSet를 필드로 선언
+	
+	//생성자
+	public UserDAO() {//javascript는 constructor  java class는 클래스명과 동일
+		try {
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+	
+
+}

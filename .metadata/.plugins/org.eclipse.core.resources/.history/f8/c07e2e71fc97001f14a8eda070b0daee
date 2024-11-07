@@ -1,0 +1,41 @@
+package procedure;
+
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+
+public class FileInsertExample {
+	public static void main(String[] args) {
+		Connection conn = null;
+		try {
+			//JDBC드라이버 등록
+			Class.forName("oracle.jdbc.OracleDriver");
+			//연결하기
+			conn = DriverManager.getConnection(
+			"jdbc:oracle:thin:@localhost:1521/xe",
+			"PRO_USR",
+			"1234"
+			);
+			
+			//sql문 작성
+			String sql = "" +
+			"INSERT INTO boards (bno, btitle, bcontent, bwriter, bdate, bfilename, bfiledata) " +
+			"VALUES (SEQ_BNO.NEXTVAL,?,?,?, SYSDATE, ?. ?)";
+			
+			//PreparedStatement 얻기 및 값 지정
+			PreparedStatement pstmt = conn.prepareStatement(sql, new String[] {"bno"});
+			pstmt.setString(1,  "눈 오는날");
+			pstmt.setString(2,  "눈이 내려요");
+			pstmt.setString(3,  "winter");
+			pstmt.setString(1,  "눈 오는날");
+			
+			
+			
+			
+			
+			
+			
+			
+		}
+	}
+}

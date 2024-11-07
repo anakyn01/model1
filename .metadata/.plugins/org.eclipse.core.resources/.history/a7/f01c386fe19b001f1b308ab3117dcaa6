@@ -1,0 +1,14 @@
+package bbs;
+
+import java.sql.Connection;
+import java.sql.ResultSet;
+
+public class BbsDAO {
+	
+	private Connection conn;
+	private ResultSet rs;
+	
+	//접속을 하기위한 생성자
+	
+
+}

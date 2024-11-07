@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Move package &apos;part2.object&apos; to &apos;thisisjava/src&apos;&#x0D;&#x0A;- Original project: &apos;jdk21&apos;&#x0D;&#x0A;- Destination element: &apos;thisisjava/src&apos;&#x0D;&#x0A;- Original element: &apos;jdk21/src/part2.object&apos;&#x0D;&#x0A;- Update references to refactored element" description="Move package" destination="=thisisjava/src" element1="/src&lt;part2.object" flags="589830" fragments="1" id="org.eclipse.jdt.ui.move" policy="org.eclipse.jdt.ui.movePackages" stamp="1718071136954" version="1.0"/>
+</session>

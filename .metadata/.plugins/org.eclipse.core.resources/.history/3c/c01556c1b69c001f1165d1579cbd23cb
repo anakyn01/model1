@@ -1,0 +1,34 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ page import="java.io.PrintWriter, bbs.*" %>
+<%
+/*
+bbsId를 초기화 시키고 bbsId라는 데이터가 넘어온것이 존재한다면 캐스팅해서 변수에 담는다
+*/
+int bbsID = 0;
+if(request.getParameter("bbsID") != null){
+	bbsID = Integer.parseInt(request.getParameter("bbsID"));
+	//parseInt : 문자열을 파싱[구문분석]하여 특정진수의 정수로 리턴
+}
+//만약 넘어온 데이터가 없다면
+if(bbsID == 0){
+	PrintWriter script = response.getWriter();
+	script.println("<script>");
+	script.println("</script>");
+}
+%>    
+<html>
+<head>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css">
+<title>welcome</title>
+</head>
+<body>
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h1></h1>
+</div>
+</div>
+</div>
+</body>
+</html>

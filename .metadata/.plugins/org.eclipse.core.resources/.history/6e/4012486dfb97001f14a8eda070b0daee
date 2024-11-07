@@ -1,0 +1,14 @@
+package procedure;
+
+import java.sql.Connection;
+
+public class FileInsertExample {
+	public static void main(String[] args) {
+		Connection conn = null;
+		try {
+			//JDBC드라이버 등록
+			Class.forName("oracle.jdbc.OracleDriver");
+			
+		}
+	}
+}

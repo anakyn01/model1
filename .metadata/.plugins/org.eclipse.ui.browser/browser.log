@@ -1,0 +1,47 @@
+
+5월 28, 2024 16:28:47.103 NEW SESSION
+5월 28, 2024 16:28:47.103 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+5월 31, 2024 12:47:00.80 NEW SESSION
+5월 31, 2024 12:47:00.80 Created TensorFlow Lite XNNPACK delegate for CPU.
+5월 31, 2024 12:49:38.329 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+7월 16, 2024 10:52:08.689 NEW SESSION
+7월 16, 2024 10:52:08.690 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 16, 2024 11:31:52.301 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 16, 2024 11:34:28.117 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 16, 2024 11:53:39.91 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 16, 2024 12:03:22.312 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 16, 2024 12:23:19.715 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+7월 25, 2024 11:51:50.64 NEW SESSION
+7월 25, 2024 11:51:50.64 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 25, 2024 11:58:46.220 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 25, 2024 11:59:50.829 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 25, 2024 12:29:31.434 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 25, 2024 12:33:38.637 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 25, 2024 12:42:59.58 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 25, 2024 12:45:27.696 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 25, 2024 12:46:29.991 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 25, 2024 12:47:39.589 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 25, 2024 12:49:01.348 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 25, 2024 12:50:05.476 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+7월 29, 2024 10:09:48.48 NEW SESSION
+7월 29, 2024 10:09:48.48 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+7월 31, 2024 12:58:21.294 NEW SESSION
+7월 31, 2024 12:58:21.294 Created TensorFlow Lite XNNPACK delegate for CPU.
+7월 31, 2024 13:15:59.477 [2124:3820:0731/131559.476:ERROR:device_event_log_impl.cc(196)] [13:15:59.476] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+7월 31, 2024 13:16:31.46 [2124:3820:0731/131631.045:ERROR:device_event_log_impl.cc(196)] [13:16:31.046] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+7월 31, 2024 13:23:32.169 [2124:3820:0731/132332.168:ERROR:device_event_log_impl.cc(196)] [13:23:32.168] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+7월 31, 2024 13:25:32.468 [2124:3820:0731/132532.467:ERROR:device_event_log_impl.cc(196)] [13:25:32.467] USB: usb_service_win.cc:105 SetupDiGetDeviceProperty({{A45C254E-DF1C-4EFD-8020-67D146A850E0}, 6}) failed: �슂�냼媛� �뾾�뒿�땲�떎. (0x490)
+
+8월 02, 2024 15:01:32.399 NEW SESSION
+8월 02, 2024 15:01:32.400 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+8월 07, 2024 09:16:38.440 NEW SESSION
+8월 07, 2024 09:16:38.441 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 07, 2024 09:17:29.10 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 07, 2024 09:17:42.224 Created TensorFlow Lite XNNPACK delegate for CPU.
+8월 07, 2024 09:27:12.480 [10356:8724:0807/092712.479:ERROR:account_info_fetcher.cc(62)] OnGetTokenFailure: Invalid credentials (credentials rejected by client).

@@ -1,0 +1,26 @@
+package procedure;
+
+import java.sql.Connection;
+import java.sql.SQLException;
+
+public class BoardDelete {
+
+	public static void main(String[] args) {
+
+		Connection conn = null;
+		try {
+			//jdbc 드라이버 등록
+			
+		}catch (Exception e) {
+			e.printStackTrace();
+		}finally {
+			if(conn != null) {
+				try {
+					conn.close();
+				}catch (SQLException e) {}
+			}
+		}
+
+	}
+
+}

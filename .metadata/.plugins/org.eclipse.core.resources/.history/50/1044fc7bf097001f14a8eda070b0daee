@@ -1,0 +1,9 @@
+package procedure;
+
+public class ConnectionExample {
+	
+	public static void main(String[] args) {
+		
+	}
+
+}

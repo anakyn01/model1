@@ -1,0 +1,11 @@
+package procedure;
+
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+
+public class UserDAO {
+	
+	private Connection conn;//자바와 데이터 베이스 연결
+	private PreparedStatement pstmt;//퀴리문 대기 및 설정
+
+}
